@@ -1,12 +1,19 @@
 // Place all the styles related to the breeds controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 .dog {
+  text-align: left;
+  width: 50%;
+  float: left;
+}
 
-  text-align: center;
+#canvas {
+  position: relative;
+}
 
-  img {
-    width: 400px
-  }
+#pic {
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  right: 0px;
 }
